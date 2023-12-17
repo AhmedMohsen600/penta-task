@@ -94,7 +94,8 @@ function executeCommands(command, initialRover) {
     const executeCommand = validCommands[command.toUpperCase()] || (() => {});
     rover = executeCommand(command.toUpperCase(), rover);
   }
-  return rover;
+
+  console.log('current coordinates', rover);
 }
 
 // Example for Executing Rover Commands first argument rover commands and second argument is the marsRover object
