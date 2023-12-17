@@ -7,6 +7,7 @@ function createMarsRover(x = 0, y = 0, direction = 'north') {
   };
   return rover;
 }
+
 let marsRover = createMarsRover(4, 2, 'east');
 
 // [2] create function for each movement (movingForward - movingBackward - turnLeft - turnRight)
@@ -96,6 +97,7 @@ function executeCommands(command, initialRover) {
   return rover;
 }
 
+// Example for Executing Rover Commands first argument rover commands and second argument is the marsRover object
 executeCommands('fff', marsRover);
 
 export {

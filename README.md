@@ -48,11 +48,11 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/AhmedMohsen600/penta-task.git
+git clone https://github.com/AhmedMohsen600/penta-task.git
 ```
 
 ```
-  cd penta-task
+cd penta-task
 ```
 
 ### Install
@@ -60,7 +60,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```
-  npm install
+npm install
 ```
 
 ### Usage
@@ -70,6 +70,10 @@ Open index.html File then open the console to see the end result.
 ### Run Tests
 
 To run tests execute the following command:
+
+```
+npm install --save-dev jest
+```
 
 ```
 jest
